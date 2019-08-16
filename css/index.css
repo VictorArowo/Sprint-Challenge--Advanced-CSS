@@ -178,7 +178,7 @@ footer {
   align-items: center;
 }
 .logo-navbar {
-  margin: 2rem auto;
+  margin-top: 2rem;
   background-color: #F1F1F1;
   height: 10rem;
   display: flex;
@@ -194,6 +194,11 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
