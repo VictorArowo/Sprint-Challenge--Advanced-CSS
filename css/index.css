@@ -160,6 +160,13 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav a {
+  text-decoration: none;
+  color: #23293B;
+  font-size: 20px;
+  margin: 0 10px;
+  font-weight: 400;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
