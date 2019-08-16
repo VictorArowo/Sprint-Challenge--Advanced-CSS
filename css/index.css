@@ -170,6 +170,18 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.logo-navbar {
+  margin: 2rem auto;
+  background-color: grey;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-navbar h1 {
+  font-size: 36px;
+}
 .home .intro h2 {
   padding: 15px;
 }
