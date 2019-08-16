@@ -3,8 +3,7 @@
   margin-top :2rem;
   background-color: @nav-border;
   height: 10rem;
-  display: flex; 
-  flex-direction: column;
+  .flex();
   justify-content: space-around;
   align-items: center;
   h1{
@@ -77,6 +76,13 @@
       }
 
       .btn {
+        .button(10px,black,35px, 95px, 20px);
+        padding-top: 5px;
+        text-align: center;
+        &:hover{
+          color: black;;
+          background-color: @nav-border;
+        }
       }
     }
 
