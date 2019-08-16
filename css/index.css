@@ -185,9 +185,16 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1;
 }
 .logo-navbar h1 {
   font-size: 36px;
+}
+.home {
+  margin-top: 12rem;
 }
 .home .intro h2 {
   padding: 15px;
