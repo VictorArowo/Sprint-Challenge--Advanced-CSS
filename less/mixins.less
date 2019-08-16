@@ -1,7 +1,18 @@
-.button(@border-radius, @background-color, @height, @width){
+.button(@border-radius, @background-color, @height, @width, @font-size){
     height: @height;
     width: @width;
     background-color: @btn-bg-color;
     color: white;
     border-radius: @border-radius;
+    font-size: @font-size;
+}
+
+.flex(){
+    display: flex; 
+    flex-direction: column;
+}
+
+.links(){
+    text-decoration: none;
+    color: @header-font-color;
 }
